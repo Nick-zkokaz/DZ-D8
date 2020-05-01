@@ -1,16 +1,14 @@
-# Задание DZ D8
-
 Проверка  
 1) Распакуйте проект в папку C:\DZ D8
 2) Откройте командную строку и зайдите в директорию проекта:
    - cd C:\DZ D8
-3) Создате виртуальное окружение:
+3) Создайте виртуальное окружение:
    - python -m venv django
 4) Активируйте виртуальное окружение:
    - django\Scripts\activate.bat
 5) Установите все необходимые пакеты:
    - pip install -r requirements.txt
-6) Выполнить следующий команды:
+6) Выполните следующие команды:
    - python manage.py makemigrations
    - python manage.py migrate
    - python manage.py createsuperuser
@@ -19,7 +17,7 @@
 Для того, чтобы сделать деплой на heroku необходимо:
 1) Перейти в каталог с проектом:
    - cd C:\DZ D8
-2) Выпонить следующий команды:
+2) Выполнить следующие команды:
    - git init
    - git add .
    - git commit -m "initial commit"
@@ -34,9 +32,7 @@
    - heroku run python manage.py makemigrations
    - heroku run python manage.py migrate
    - heroku run python manage.py createsuperuser
-3) Если необходимо переименовываем приложение:
-   - heroku rename -a oldname newname
-4) Запускаем приложение:
+3) Запускаем приложение:
    - heroku open
 
    Данный проект находится на https://powerful-falls-58637.herokuapp.com/
